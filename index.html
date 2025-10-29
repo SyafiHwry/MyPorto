@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SyafiHwry — Portofolio</title>
+  <meta name="description" content="Portofolio SyafiHwry — Developer / Designer / Profesional" />
+  <meta name="author" content="SyafiHwry" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="script.js">
+
+  <!-- Simple modern CSS (no external deps) -->
+</head>
+<body>
+  <div class="container" role="main">
+    <header>
+      <a href="#" class="brand" aria-label="Beranda - Portofolio">
+        <div>
+          <div style="font-weight:700">Syafi Hwry</div>
+          <div class="small muted">No pain, no gain</div>
+        </div>
+      </a>
+
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Tugas</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact" class="cta">Contact</a>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="intro card">
+        <h1 id="hero-heading">Halo, saya Muhammad Syafi' Al Hawariy, saya merupakan mahasiswa Teknik Informatika Uniersitas Dian Nuswantoro Semarang</h1>
+        <p>Saya memiliki minat dalam bidang pengembangan perangkat lunak dan teknologi informasi, serta terus berusaha mengembangkan kemampuan dalam pemrograman, analisis sistem, dan pemecahan masalah berbasis teknologi.</p>
+
+        <div style="margin-top:16px;display:flex;gap:10px;flex-wrap:wrap">
+          <a href="#projects" class="chip" role="button">Lihat Tugas</a>
+          <a href="#contact" class="chip">Hubungi Saya</a>
+        </div>
+      </div>
+
+      <aside class="profile-card card card-side" aria-label="Profil singkat">
+        <div class="avatar" aria-hidden="true">
+          <!-- Ganti src dengan foto asli -->
+          <img src="aku - Copy.jpeg" alt="Foto Syafi">
+        </div>
+        <h3>Muhammad Syafi' Al Hawariy</h3>
+        <div class="small muted">Mahasiswa Teknik Informatika</div>
+        <p class="muted small">Berdomisili di Demak, Indonesia</p>
+
+        <div class="socials" role="list" aria-label="Tautan sosial">
+          <a class="chip" href="https://wa.me/6285640603084" role="listitem">WhatsApp</a>
+          <a class="chip" href="https://github.com/SyafiHwry" role="listitem">GitHub</a>
+          <a class="chip" href="https://www.instagram.com/syafi.hwry?igsh=MW1uMXB1bnF6dXkwNQ==" role="listitem">Instagram</a>
+        </div>
+      </aside>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" aria-labelledby="about-heading">
+      <div class="card">
+        <h2 id="about-heading">Tentang Saya</h2>
+        <p class="muted">Selama kuliah, saya mempelajari berbagai bahasa pemrograman seperti HTML, CSS, JavaScript, dan C++, serta aktif mengerjakan proyek yang berfokus pada pembuatan website interaktif dan responsif. Saya juga tertarik untuk mempelajari teknologi baru yang dapat meningkatkan pengalaman pengguna dan efisiensi sistem.</p>
+        <p class="muted" style="margin-top:12px">Saya percaya bahwa teknologi bukan hanya tentang kode, tetapi tentang menciptakan solusi yang bermanfaat bagi banyak orang. Karena itu, saya selalu berusaha mengasah kemampuan berpikir kritis, berkolaborasi dengan tim, dan belajar dari pengalaman nyata.</p>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" aria-labelledby="projects-heading">
+      <div class="card">
+        <h2 id="projects-heading">Tugas Perkodingan dengan C++</h2>
+
+        <div class="projects-grid" style="margin-top:14px">
+          <!-- Project 1 -->
+          <article class="project" tabindex="0" data-title="Project A" data-desc="Deskripsi singkat Project A. Teknologi: HTML, CSS, JS." data-img="https://via.placeholder.com/800x450.png?text=Project+A">
+            <img src="Screenshot 2025-10-29 150402.png" alt="projek 1">
+            <h4>Project Kondisi</h4>
+            <p class="muted small">Sebuah tugas menggunakan kondisi nested if.</p>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project" tabindex="0" data-title="Project B" data-desc="Deskripsi singkat Project B. Teknologi: React, Tailwind." data-img="https://via.placeholder.com/800x450.png?text=Project+B">
+            <img src="Screenshot 2025-10-29 151233.png" alt="Project2">
+            <h4>Project Looping Bintang</h4>
+            <p class="muted small">Melooping bentuk bintang.</p>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project" tabindex="0" role="button" data-title="Project C" data-desc="Deskripsi singkat Project C. Teknologi: Next.js, Vercel." data-img="https://via.placeholder.com/800x450.png?text=Project+C">
+            <img src="Screenshot 2025-10-29 151438.png" alt="Project3">
+            <h4>Project Looping</h4>
+            <p class="muted small">User input untuk melihat hasil looping.</p>
+          </article>
+
+          <!-- Tambah proyek lain sesuai kebutuhan -->
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" aria-labelledby="skills-heading">
+      <div class="card">
+        <h2 id="skills-heading">Keahlian</h2>
+        <div class="skills" style="margin-top:12px">
+          <span class="skill">Ms Word</span>
+          <span class="skill">Ms Excel</span>
+          <span class="skill">Basic C++</span>
+          <span class="skill">Basic HTML</span>
+          <span class="skill">Basic CSS</span>
+          <span class="skill">Basic JavaScript</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+<!-- CONTACT -->
+<section id="contact" aria-labelledby="contact-heading">
+  <div class="card">
+    <h2 id="contact-heading">Hubungi Saya</h2>
+    <p class="muted small">Mari saling berteman, atau sekadar mutual sosmed?  
+      Kamu bisa menghubungiku melalui beberapa platform berikut:</p>
+
+    <div style="margin-top:16px; display:flex; flex-wrap:wrap; gap:12px; align-items:center;">
+      <!-- Email -->
+      <a href="mailto:syafihwry@gmail.com" class="chip" aria-label="Kirim Email">
+        ✉️ Email
+      </a>
+
+      <!-- WhatsApp -->
+      <a href="https://wa.me/6285640603084" class="chip" target="_blank" rel="noopener" aria-label="Hubungi via WhatsApp">
+        💬 WhatsApp
+      </a>
+
+      <!-- GitHub -->
+      <a href="https://github.com/SyafiHwry" class="chip" target="_blank" rel="noopener" aria-label="Profil GitHub">
+        💻 GitHub
+      </a>
+
+      <!-- Instagram -->
+      <a href="https://instagram.com/syafi.hwry" class="chip" target="_blank" rel="noopener" aria-label="Profil Instagram">
+        📷 Instagram
+      </a>
+    </div>
+
+    <p class="muted small" style="margin-top:16px">
+      Saya akan senang mendengar kabar darimu. Saya akan berusaha fast respon mwehehehe
+    </p>
+  </div>
+</section>
+
+
+  </div>
+
+  <!-- Modal struktur -->
+  <div id="modal" class="modal-backdrop" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal" role="document">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <h3 id="modalTitle">Judul Proyek</h3>
+        <button class="close-btn" aria-label="Tutup" onclick="closeModal()">✕</button>
+      </div>
+      <div id="modalBody" style="margin-top:10px">
+        <img id="modalImg" src="" alt="" style="width:100%;height:auto;border-radius:8px;margin-bottom:10px"/>
+        <p id="modalDesc" class="muted"></p>
+      </div>
+      <div style="margin-top:12px;display:flex;gap:8px;justify-content:flex-end">
+        <a id="liveLink" href="#" class="chip" target="_blank" rel="noopener">Live</a>
+        <a id="codeLink" href="#" class="chip" target="_blank" rel="noopener">Code</a>
+      </div>
+    </div>
+  </div>
+</html>
